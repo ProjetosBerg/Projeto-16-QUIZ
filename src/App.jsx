@@ -2,10 +2,10 @@ import Welcome from './components/Welcome'
 
 import './App.css'
 import { useContext, useEffect } from 'react';
-import Question from '../src/components/Question';
-import { QuizContext } from '../src/context/quiz';
-import GamerOver from '../src/components/GamerOver';
-import PickCategory from '../src/components/PickCategory';
+import Question from './components/Question';
+import { QuizContext } from './context/quiz';
+import GamerOver from './components/GamerOver';
+import PickCategory from './components/PickCategory';
 
 
 function App() {
